@@ -7,7 +7,7 @@ def process_int_input(given_input):
     try:
         int_input = int(given_input)
     except:
-        print('bad input')
+        print('very bad input')
         return False
     else:
         print('all good')
